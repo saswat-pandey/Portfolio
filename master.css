@@ -1,0 +1,152 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("conentPage.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+@media ( max-width :599px) {
+	ul {
+		margin:0;
+	}
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+
+.prof {
+	width: 80%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+}
+
+div h2 {
+	background: black;
+	background: linear-gradient(to right, black, silver, white);
+	padding: 5px;
+	color: white;
+}
+
+h1 {
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	float: right;
+}
+
+nav {
+	text-align: center;
+	font-size: 0;
+	position: sticky;
+	top: 0px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 5px;
+	display: inline-block;
+	width: 20%;
+	font-family: 'Chela One', cursive;
+	font-size: 2vw;
+	background: black;
+	backgroumd: linear-gradient(black, silver, white);
+}
+
+nav a:HOVER {
+	background: silver;
+}
+
+.multipleColumn {
+	width: 100%;
+	overflow: auto;
+}
+
+.multipleColumn .inner {
+	float: left;
+	width: 40%;
+	margin: 2%;
+	padding: 2%;
+}
+
+.multipleColumn .left {
+	margin-right: 0;
+}
+
+.parallax {
+	background-image: url("parallax.jpg");
+	position: relative;
+	opacity: 25;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+
+#work,#education,#skill,#project,#about {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	overflow: auto;
+	font-size: 1.5vw;
+}
+
+#work {
+	color: black;
+}
+
+footer {
+	position: sticky;
+	bottom: 0px;
+}
+
+footer nav {
+	text-align: center;
+	font-size: 0;
+	background: black;
+	background: linear-gradient(to right, black, silver, white);
+}
+
+footer nav a {
+	text-decoration: none;
+	display: inline-block;
+	width: 20%;
+	font-size: 2vw;
+}
+
+footer nav a:HOVER {
+	background: silver;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.subHeadings {
+	font-style: italic;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.fa {
+	font-size: 2vw;
+	color: white;
+}

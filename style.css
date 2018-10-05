@@ -1,0 +1,79 @@
+
+@media (max-width: 599px){
+    .profile-pic{
+    display:none;
+    }
+}
+
+html{
+box-sizing:border-box;
+}
+
+body{
+box-sizing:inherit;
+}
+
+
+
+.initial-profile {
+	background: rgb(0, 0, 0, .4);
+	font-family: 'Permanent Marker', cursive;
+	padding: 40px;
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+	overflow: auto;
+	font-size: 1.5vw;
+  position: sticky;
+}
+
+.initial-profile a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	text-decoration: underline;
+	margin: 10px;
+
+}
+
+div img {
+	border-radius: 50%;
+	height:200px;
+	width:300px;
+}
+
+html {
+	background: url(indexImg.jpg) no-repeat center center fixed;
+ background-size: 100%;
+}
+
+
+nav {
+	text-align: center;
+	font-size: 0;
+}
+
+nav a {
+	text-decoration: none;
+	display: inline-block;
+	width: 15%;
+	font-size: .5vw;
+}
+
+.contact{
+background: rgb(0, 0, 0, .3);
+	text-align: center;
+ /* position: sticky; */
+	bottom: 0px;
+	color: white;
+	font-style: oblique;
+}
+
+.myform{
+  margin-top: 5px;
+  display:none;
+}
+
+div .navs{
+  display: none;
+}

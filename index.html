@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="icon" href="favicon.jpg" type="image/jpg" sizes="16x16">
+	<script type="text/javascript" src="javascript.js" defer></script>
+
+
+	<meta charset="UTF-8">
+	<title>Resume</title>
+</head>
+<body>
+		<div class="initial-profile">
+			<img alt="My Image" src="profile.jpg" class="profile-pic">
+			<h1>Saswat Raj Pandey</h1>
+			<h3>Web / Software Developer</h3>
+			<p>It's fascinating what a few lines of code can accomplish.Don't believe me?</p>
+			<a href="Resume.html">Just Click Here!</a>
+			<h4>Get Relevent Links</h4>
+			<div id="navs" class="navs">
+				<nav>
+					<a href="https://www.linkedin.com/in/saswat-pandey/" target="blank"><i class="fa fa-linkedin-square" style="font-size:28px;color:white"></i></a>
+					<a href="https://www.instagram.com/xpressinfinity/" target="blank"><i class="fa fa-instagram" style="font-size: 28px; color: white"></i> </a>
+					<a href="https://github.com/saswat-pandey" target="blank"><i class="fa fa-git-square" style="font-size: 28px; color: white"></i></a>
+					<a href="https://www.facebook.com/saswat.pandey.5" target="blank"><i class="fa fa-facebook-official"style="font-size: 28px; color: white"></i></a>
+				</nav>
+			</div>
+		</div>
+
+		<div class="contact">
+			<p>Contact Details:</p>
+			<p>Phone Number: +1 (361) 228 5563</p>
+			<h3 id="submitbtn">Mail Me</h3>
+			<!-- <button type="button" name="mail" id="submitbtn">Mail me</button> -->
+			<form class="myform" method="post" id="myform" >
+				<label for="to_address">To: </label><br>
+				<input type="email" name="to_address" placeholder="saswat1701@gmail.com" readonly>
+				<br>
+				<label for="from_address">From: </label>
+				Name:<br>
+				<input type="text" name="name"><br>
+				Subject:<br>
+				<input type="text" name="subject" id="subject"><br>
+				Comment:<br>
+				<textarea type="text" name="comment" size="500" id="body"></textarea><br><br>
+				<button type="button" name="mail" id="sendMail">Send Mail</button>
+				<input type="reset" value="Reset">
+
+				<button type="button" name="mail" id="cancelMail">Cancel Mail</button>
+			</form>
+
+		</div>
+
+</body>
+</html>
